@@ -1,0 +1,146 @@
+*{
+    font-family:'ABeeZee';
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12%;
+    margin-left: auto;
+    padding: 1em;
+}
+
+nav a{
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav img:nth-of-type(1){
+    height: 20px;
+}
+
+nav img:nth-of-type(2){
+    height: 30px;
+    border-radius: 50%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 50%;
+    margin:6.9em auto;
+    text-align: center;
+}
+
+.container{
+    height: 100%;
+}
+
+input{
+    padding: 1em;
+    width: 75%;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+.buttons{
+    margin-top: 1em;
+}
+
+.buttons button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    border-radius: 2px;
+    border: 1px solid #f8f8f8;
+}
+
+.buttons button:hover{
+    border: 1px solid lightgrey;
+    outline: none;
+}
+.offer{
+    margin-top: 20px;
+}
+
+.tribe_links{
+    font-size: 14px;
+}
+
+.tribe_links a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.tribe_links a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #f8f9fa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer_top{
+    padding: 1em;
+}
+
+.footer_top p{
+    font-size: 14px;
+    color: grey;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-top: 1px solid #d8d8d8;
+}
+.middle{
+    margin-right: 150px;
+}
+
+.middle a{ 
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.middle a img{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.left a, .right a{
+    text-decoration: none;
+    margin-right: 1em;
+    color: grey;
+    font-size: 14px;
+}
+
+.left a:hover, .right a:hover, .middle a:hover{
+    text-decoration: underline;
+}
